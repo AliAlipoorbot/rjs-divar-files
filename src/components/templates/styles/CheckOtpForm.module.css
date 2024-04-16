@@ -1,0 +1,46 @@
+.form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid silver;
+  border-radius: 5px;
+  padding: 30px;
+  margin-top: 100px;
+}
+
+.form p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.form span {
+  font-size: 0.8rem;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.form input {
+  margin: 10px 0 20px;
+  padding: 5px;
+  border: 1px solid silver;
+  border-radius: 5px;
+}
+
+.form button {
+  width: 100px;
+  padding: 5px 10px;
+  background-color: #a62626;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.form .backButton {
+    margin-top: 30px;
+    width: 150px;
+    background-color: #fff;
+    color: #a62626;
+    border: 1px solid #a62626;
+}

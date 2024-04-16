@@ -1,0 +1,72 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  border-bottom: 2px solid rgb(234, 234, 234);
+  margin-bottom: 20px;
+  padding: 10px 0;
+}
+
+.logo {
+  margin-left: 40px;
+  width: 45px;
+}
+
+.header div {
+  display: flex;
+}
+
+.header span {
+  display: flex;
+  height: 50px;
+  color: gray;
+  align-items: center;
+}
+
+.header span p {
+  margin-left: 5px;
+  font-size: 0.9rem;
+}
+
+.button {
+  background-color: #a62626;
+  color: #fff;
+  height: 40px;
+  width: 80px;
+  line-height: 40px;
+  margin-right: 40px;
+  border: #a62626 1px solid;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.header button {
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.dropDownMenu {
+  position: absolute;
+  flex-direction: column;
+  top: 70px;
+  background-color: #fff;
+  left: 100px;
+  border: #a62626 1px solid;
+  border-radius: 5px;
+  width: 150px;
+  padding: 1rem;
+}
+
+.dropDownMenu ul {
+  margin: 10px;
+  list-style: none;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.dropDownMenu li {
+  font-weight: 600;
+  font-size: 1rem;
+}
